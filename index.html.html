@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Hiraram Suthar | Ultra Digital Services & Solutions</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <div class="logo-box">HS</div>
+                <div class="logo-text"><span class="grad-pink">Hiraram</span> <span class="grad-gold">Suthar</span></div>
+            </div>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="btn-login-nav" onclick="openLoginModal()"><i class="fa-solid fa-user-lock"></i> Login</button></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="https://wa.me/916238567406" target="_blank" class="btn-hire"><i class="fa-solid fa-bolt"></i> Hire Me</a>
+                <div class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <div class="badge"><i class="fa-solid fa-sparkles"></i> Premium Digital Agency</div>
+            <h1 class="hero-title"><span class="grad-pink">Hiraram</span> <span class="grad-gold">Suthar</span></h1>
+            <h2 class="hero-subtitle">High-End Digital Services & <span class="grad-cyan">Creative Solutions</span></h2>
+            <p class="hero-desc">हम बिज़नेस, क्रिएटर्स और ब्रांड्स के लिए 4K वीडियो एडिटिंग, हाई-स्पीड रिस्पॉन्सिव वेब डेवलपमेंट, ग्राफ़िक्स और ऑटोमेशन सिस्टम का निर्माण करते हैं।</p>
+            
+            <div class="hero-btns">
+                <a href="#services" class="btn btn-primary">Explore Services <i class="fa-solid fa-arrow-trend-up"></i></a>
+                <button onclick="openLoginModal()" class="btn btn-glass">User Portal / Login <i class="fa-solid fa-right-to-bracket"></i></button>
+            </div>
+
+            <div class="quick-bar">
+                <a href="tel:6238567406" class="q-item"><i class="fa-solid fa-phone color-gold"></i> 6238567406</a>
+                <a href="https://wa.me/916238567406" target="_blank" class="q-item"><i class="fa-brands fa-whatsapp color-green"></i> WhatsApp Us</a>
+                <a href="mailto:hirasarkar898@gmail.com" class="q-item"><i class="fa-solid fa-envelope color-pink"></i> hirasarkar898@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="section-header">
+            <span class="sub-tag">WHAT WE OFFER</span>
+            <h2>My Premium <span class="grad-gold">Services</span></h2>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card border-pink">
+                <div class="card-img-box"><img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=500&auto=format&fit=crop" alt="Video Editing"></div>
+                <h3><i class="fa-solid fa-film color-pink"></i> 4K Video Editing</h3>
+                <p>YouTube Reels, Shorts, Commercial Ads & Cinematic Color Grading।</p>
+            </div>
+            <div class="service-card border-purple">
+                <div class="card-img-box"><img src="https://images.unsplash.com/photo-1542744094-3a31b272c490?w=500&auto=format&fit=crop" alt="Photo Editing"></div>
+                <h3><i class="fa-solid fa-wand-magic-sparkles color-purple"></i> Graphic & Photo VFX</h3>
+                <p>High-End Portrait Retouching, Poster Designing & Manipulations।</p>
+            </div>
+            <div class="service-card border-cyan">
+                <div class="card-img-box"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop" alt="Web Development"></div>
+                <h3><i class="fa-solid fa-code color-cyan"></i> Responsive Web Design</h3>
+                <p>HTML5, CSS3, JS & React का इस्तेमाल करके अल्ट्रा-फास्ट वेब एप्स।</p>
+            </div>
+            <div class="service-card border-gold">
+                <div class="card-img-box"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop" alt="Data Entry"></div>
+                <h3><i class="fa-solid fa-file-excel color-gold"></i> Advanced Automation</h3>
+                <p>Data Management, Excel Formulas & Automated Workflows।</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="section-header">
+            <span class="sub-tag">PORTFOLIO Showcase</span>
+            <h2>Featured <span class="grad-pink">Projects</span></h2>
+        </div>
+        <div class="portfolio-grid">
+            <div class="p-card">
+                <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?w=600&auto=format&fit=crop" alt="Project 1">
+                <div class="p-overlay"><h4>4K Cinematic Editing</h4><p>Cinematic FX & Audio Sync</p></div>
+            </div>
+            <div class="p-card">
+                <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&auto=format&fit=crop" alt="Project 2">
+                <div class="p-overlay"><h4>Cross-Platform Web App</h4><p>Fluid Responsive UI</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <span class="sub-tag">EXPERTISE</span>
+            <h2>Technical <span class="grad-cyan">Skills</span></h2>
+        </div>
+        <div class="skills-box">
+            <div class="skill-item">
+                <div class="s-info"><span>Video Editing & Motion FX</span><span>95%</span></div>
+                <div class="bar"><div class="fill fill-pink" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="s-info"><span>Web Development & Responsive UI</span><span>96%</span></div>
+                <div class="bar"><div class="fill fill-cyan" style="width: 96%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-card">
+            <h2>Let's Work <span class="grad-gold">Together!</span></h2>
+            <form id="mainForm">
+                <input type="text" id="c_name" placeholder="Your Name" required>
+                <input type="email" id="c_email" placeholder="Your Email" required>
+                <textarea id="c_msg" rows="4" placeholder="Your Project Details..." required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal-card">
+            <button class="close-btn" onclick="closeLoginModal()">&times;</button>
+            <h3>Access <span class="grad-gold">User Portal</span></h3>
+            <p>Login with Google or Phone Number to view project dashboard.</p>
+            
+            <div id="g_id_onload"
+                data-client_id="YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com"
+                data-callback="handleCredentialResponse">
+            </div>
+            <div class="g_id_signin" data-type="standard" data-shape="pill" data-theme="dark"></div>
+
+            <div class="divider"><span>OR LOGIN WITH DETAILS</span></div>
+
+            <form id="customLoginForm">
+                <input type="text" id="usr_name" placeholder="Full Name" required>
+                <input type="tel" id="usr_phone" placeholder="Phone Number" required>
+                <input type="email" id="usr_email" placeholder="Gmail Address" required>
+                <button type="submit" class="btn btn-primary btn-block">Login Now <i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="adminModal">
+        <div class="modal-card wide">
+            <button class="close-btn" onclick="closeAdminModal()">&times;</button>
+            <h3>User Login <span class="grad-pink">Database</span></h3>
+            <p>यहाँ आपकी वेबसाइट पर लॉगिन हुए सभी यूज़र्स का डेटा मौजूद है:</p>
+            <div class="table-wrapper">
+                <table id="userTable">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Date/Time</th>
+                        </tr>
+                    </thead>
+                    <tbody id="userTableBody"></tbody>
+                </table>
+            </div>
+            <button onclick="downloadCSV()" class="btn btn-glass" style="margin-top: 15px;"><i class="fa-solid fa-download"></i> Download CSV Data</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 <span class="grad-gold">Hiraram Suthar</span> | All Rights Reserved.</p>
+        <p><a href="javascript:void(0)" onclick="openAdminModal()" class="admin-link"><i class="fa-solid fa-user-shield"></i> Admin Panel (View Logged Users)</a></p>
+    </footer>
+
+    <a href="https://wa.me/916238567406" class="whatsapp-float" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+    <script src="script1.js"></script>
+</body>
+</html><!-- ==================== LIVE USER TRACKING & ADMIN PANEL ==================== -->
+
+<!-- Advanced Contact & Dynamic Login Tracking Form -->
+<section class="user-tracker-section" id="user-portal">
+    <div class="tracker-card">
+        <div class="section-header">
+            <span class="sub-tag">LIVE ACCESS PORTAL</span>
+            <h2>User Login & <span class="grad-gold">Direct Inquiry</span></h2>
+            <p style="color: #aaa; font-size: 13px;">अपनी डिटेल्स दर्ज करें। हीरा राम जी को तुरंत लाइव अलर्ट प्राप्त होगा।</p>
+        </div>
+
+        <form id="liveTrackingForm" class="tracking-form">
+            <div class="form-group">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="u_name" placeholder="आपका पूरा नाम (Full Name)" required>
+            </div>
+            <div class="form-group">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="u_email" placeholder="ईमेल आईडी (Email Address)" required>
+            </div>
+            <div class="form-group">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" id="u_phone" placeholder="फ़ोन नंबर (Mobile Number)" required>
+            </div>
+            <div class="form-group">
+                <i class="fa-solid fa-message"></i>
+                <textarea id="u_msg" rows="3" placeholder="आप क्या सर्विस चाहते हैं या मैसेज लिखें..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+                Submit & Login <i class="fa-solid fa-paper-plane"></i>
+            </button>
+        </form>
+    </div>
+</section>
+
+<!-- Owner Secret Admin Panel Button -->
+<div class="admin-access-bar">
+    <button onclick="toggleAdminPanel()" class="btn-admin-login">
+        <i class="fa-solid fa-shield-halved"></i> Owner Admin Panel (Hira Ram Suthar)
+    </button>
+</div>
+
+<!-- Secret Admin Data Panel (Pop-up View) -->
+<div id="adminModal" class="admin-modal">
+    <div class="admin-modal-content">
+        <div class="admin-header">
+            <h3><i class="fa-solid fa-database color-gold"></i> Registered Users & Live Leads Data</h3>
+            <span class="close-btn" onclick="toggleAdminPanel()">&times;</span>
+        </div>
+        <div class="table-responsive">
+            <table id="userDataTable">
+                <thead>
+                    <tr>
+                        <th>Date & Time</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Message</th>
+                    </tr>
+                </thead>
+                <tbody id="userTableBody">
+                    <!-- Live Data Will Appear Here -->
+                </tbody>
+            </table>
+        </div>
+        <div class="admin-actions">
+            <button onclick="downloadExcelData()" class="btn btn-glass">
+                <i class="fa-solid fa-file-excel color-green"></i> Export to Excel/CSV
+            </button>
+            <button onclick="clearAllData()" class="btn-clear">
+                <i class="fa-solid fa-trash"></i> Clear All Data
+            </button>
+        </div>
+    </div>
+</div>
+<!-- ==================== END TRACKING SECTIONS ==================== -->
+<!-- ==================== FAQ, DARK MODE & SCROLL-TOP MODULE ==================== -->
+
+<!-- Interactive FAQ Section -->
+<section class="faq-section" id="faq">
+    <div class="section-header">
+        <span class="sub-tag">QUESTIONS & ANSWERS</span>
+        <h2>Frequently Asked <span class="grad-gold">Questions</span></h2>
+    </div>
+
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="faq-question">
+                <h4><i class="fa-solid fa-circle-question color-gold"></i> वीडियो एडिटिंग प्रोजेक्ट पूरा होने में कितना समय लगता है?</h4>
+                <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer">
+                <p>सामान्यतः यूट्यूब वीडियो या रील्स 24 से 48 घंटे के अंदर 4K क्वालिटी और परफेक्ट साउंड इफेक्ट्स के साथ डिलीवर कर दिए जाते हैं।</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h4><i class="fa-solid fa-circle-question color-cyan"></i> क्या आप वेबसाइट बनाने के बाद उसका सपोर्ट भी देते हैं?</h4>
+                <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer">
+                <p>हाँ बिल्कुल! Hira Ram Suthar डिजिटल सर्विसेज के तहत आपको 24/7 टेक्निकल सपोर्ट और फ्री मेंटेनेंस दी जाती है।</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h4><i class="fa-solid fa-circle-question color-pink"></i> पेमेंट करने के क्या-क्या माध्यम (Options) उपलब्ध हैं?</h4>
+                <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer">
+                <p>आप UPI (Google Pay, PhonePe, Paytm), QR Code या Direct Bank Transfer के जरिए आसानी से पेमेंट कर सकते हैं।</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Scroll To Top Button -->
+<button id="scrollTopBtn" title="Go to top">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!-- Dark/Light Theme Toggle Switcher -->
+<div class="theme-toggle-box" onclick="toggleTheme()" title="Switch Theme">
+    <i class="fa-solid fa-moon" id="themeIcon"></i>
+</div>
+<!-- ==================== END FINAL MODULE ==================== -->
